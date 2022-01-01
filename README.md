@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
 <style>
 .link {color: inherit;
 display: flex;
@@ -13,8 +10,6 @@ border: solid 2px;
 transition: 0.2s;}
 span.nome {margin: auto;}
 </style>
-</head>
-<body>
 <div style="text-align:center;margin:20px">
 <img src="images/perfil-96.png" style="border-radius: 100%;">
 <span style="font-size:16px;margin:12px;display:block;font-weight:600">Ítalo @itaaloluz</span>
@@ -95,5 +90,3 @@ d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4
 <span class="nome">GitHub</span>
 </a>
 </div>
-</body>
-</html>
