@@ -7,19 +7,23 @@
 
 :root {
     --icon-size: 32px; /* Tamanho do icone */
-    --link-bg: #eed74d; /* Cor do Link */
-    --link-color: #202020; /* Cor da fonte do link */
-    --main-bg: #ffffff; /* Cor da página */
+    --link-bg: #252525; /* Cor do Link */
+    --link-color: #dddddd; /* Cor da fonte do link */
+    --main-bg: #f0f0f0; /* Cor da página */
     --main-color: #202020; /* Cor da fonte da página */
+    --img-size: 96px; /* Tamanho da imagem de perfil */
 }
 
 body {
     color: var(--main-color);
+    background-color: var(--main-bg);
 }
 
 .perfil {
     border-radius: 100%;
     margin: 20px;
+    width: var(--img-size);
+    height: var(--img-size);
 }
 
 header {
