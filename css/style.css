@@ -7,10 +7,10 @@
 
 :root {
     --icon-size: 32px; /* Tamanho do icone */
-    --link-bg: #252525; /* Cor do Link */
-    --link-color: #dddddd; /* Cor da fonte do link */
-    --main-bg: #f0f0f0; /* Cor da página */
-    --main-color: #202020; /* Cor da fonte da página */
+    --link-bg: #078e70; /* Cor do Link */
+    --link-color: #ffffff; /* Cor da fonte do link */
+    --main-bg: #ffffff; /* Cor da pÃ¡gina */
+    --main-color: #010101; /* Cor da fonte da pÃ¡gina */
     --img-size: 96px; /* Tamanho da imagem de perfil */
 }
 
@@ -24,6 +24,10 @@ body {
     margin: 20px;
     width: var(--img-size);
     height: var(--img-size);
+}
+
+.bio {
+    margin-top: 20px;
 }
 
 header {
