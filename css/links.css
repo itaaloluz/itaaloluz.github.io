@@ -16,7 +16,7 @@
     color: var(--link-color);
     padding: 14px;
     margin-bottom: 20px;
-    border: solid 2px;
+    border: solid 2px var(--link-bg);
     transition: 0.2s;
     /* Cantos arrendondados */
     border-radius: var(--radio);
