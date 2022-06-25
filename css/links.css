@@ -18,6 +18,8 @@
     margin-bottom: 20px;
     border: solid 2px;
     transition: 0.2s;
+    /* Cantos arrendondados */
+    border-radius: var(--radio);
 }
 
 .link:hover {
