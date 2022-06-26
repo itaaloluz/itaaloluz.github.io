@@ -22,10 +22,6 @@
     border-radius: var(--radio);
 }
 
-.link:hover {
-    background-color: var(--main-bg) !important;
-}
-
 /* 
 Link 1
 .link:nth-child(1) {
@@ -62,6 +58,14 @@ Link 3
 }
 .link:nth-child(3):hover span.icon svg {
     stroke: var(--custom-color-link3);
+}.link:hover {
+    background-color: var(--main-bg);
+    color: var(--link-bg);
+    border-color: var(--link-bg);
+}
+
+.link:hover span.icon svg {
+    stroke: var(--link-bg);
 }
 Link 4
 
@@ -77,6 +81,7 @@ Link 4
     stroke: var(--custom-color-link4);
 }
  */
+
 .link:hover {
     background-color: var(--main-bg);
     color: var(--link-bg);
